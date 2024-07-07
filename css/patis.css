@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* header section */
+.header{
+     max-width: 1320px;
+     margin: 0px auto;
+     min-height: 680px;
+     background-color: rgbz(0,0,0.5);
+     background-blend-mode: overlay;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+    background-image: url(https://plus.unsplash.com/premium_photo-1717437910344-c7cac52d264f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyMXx8fGVufDB8fHx8fA%3D%3D);
+}
+.banner{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 600px;
+    align-items: center;
+}
+.banner h4 , p{
+    color: red;
+    font-size: 69px;
+}
+/* main section */
+.main{
+    width: 802.9px;
+    height: 806px;
+    margin: 0px auto;
+    border: 2px solid red;
+    margin-top: 90px;
+    
+}
+.about-us{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about-us h3{
+    font-size: 20px;
+}
+.about-us .abcd{
+    font-size: 16px;
+}
