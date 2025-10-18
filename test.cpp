@@ -2,10 +2,7 @@
 
 int main()
 {
-    int x = 10;
-    char c = 'a';
-
-    std::cout << "hello world " << x << " " << c << std::endl;
+    std::cout << "hello world";
 
     return 0;
 }
