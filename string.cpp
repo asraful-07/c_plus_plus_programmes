@@ -1,12 +1,12 @@
-#include<iostream>
+#include<bits/stdc++.h>
 using namespace std;
 
 int main()
 {
-    char c[100];
-    cin.getline(c, 100);
+  string s = "hello";
+  s += " world";
 
-    cout << c;
+    cout << s ;
 
     return 0;
 }
