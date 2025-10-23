@@ -1,1 +1,3 @@
-ffrgsdgsdf
+2
+bean 12 4
+team 18 6
